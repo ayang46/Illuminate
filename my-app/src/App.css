@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* .App{
+    padding:20px;
+} */
+
+.section{
+  justify-content:space-between;
+  padding:50px;
+  padding-left:15%;
+  padding-right:15%;
+}
+.landingPage{
+  background-color: #05101B;
+  font-size:20px;
+}
+
+.landingPage .headingText{
+  margin-top:8%;
+  justify-items: flex-start;
+}
+
+.landingPage span a{
+  align-content:center;
+}
+.landingPage h1{
+  font-size:90px;
+  line-height:80px;
+}
+
+.landingPage button{
+  margin-right:30px;
+}
+.landingPage button:hover{
+  background-color:#D5953C;
+}
+.landingPage .image{
+  justify-content:center;
+  width:45%;
+}
+.grid-container {
+  display: grid;
+  margin-top:10px;
+  grid-template-columns: repeat(2, 1fr); /* Creates 2 equal columns */
+  gap: 10px; 
+}
+
+.grid-item {
+  padding: 10px;
+  font-size:18px;
+}
+
+.aboutUs .section{
+  gap:80px;
+  flex-wrap: nowrap;
+}
+
+.aboutUs .section h2{
+  font-size:36px;
+}
+
+.aboutUs .stats{
+  line-height: 30px;
+}
+.IFPics{
+  padding:40px;
+  width:50%;
+}
+
+@media (max-width: 1280px) {
+  .section {
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+  }
+
+  .landingPage .image{
+    width:60%;
+    align-items: center;
+  }
+  .landingPage .headingText h1{
+    font-size:48px;
+    line-height:normal;
+  }
+  .landingPage .headingText{
+    justify-items: center;
+  }
+
+  .landingPage span{
+    flex-direction: column;
+  }
+  .landingPage button{
+    margin-right:0px;
+  }
+
+  .aboutUs .section{
+    gap:0px;
+  }
+  .aboutUs .stats{
+    justify-content: center;
+  }
+  .aboutUs .image{
+    width:80%;
+  }
+  .aboutUs .headingText{
+    width:100%;
+    font-size:18px;
+    padding:0px 100px;
+  }
+  .IFinfo .info{
+    flex-direction:column;
+    width:100%;
+  }
+
+  .IFPics{
+    width:100%;
+  }
+}
+
+@media (max-width: 680px) {
+  .landingPage{
+    font-size:16px;
+  }
+
+  .landingPage .image{
+    width:100%;
+  }
+
+  .landingPage .headingText{
+    width:100%;
+  }
+  .grid-item{
+    font-size:14px;
+    padding:5px;
+  }
+  .aboutUs .headingText{
+    font-size:14px;
+    padding:0px;
+  }
+
+  .aboutUs .image{
+    width:100%;
+  }
+}
