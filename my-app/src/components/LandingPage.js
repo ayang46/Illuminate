@@ -11,8 +11,8 @@ const LandingPage = () => {
                 <div className="headingText w-1/2 flex-wrap mt-20 justify-items-center">
                     <h1 className="text-orange-100 font-extrabold">ILLUMINATE</h1><h1 className="text-orange-300 font-extrabold mb-10">CHALLENGE</h1>
                     <p className=" mb-10">Empowering Arizona Students, Strengthening Arizona Communities</p>
-                    <span className = "flex"><button className="text-white border border-white rounded-md px-4 py-2 w-60 hover:shadow-lg hover:font-semibold transition-colors duration-300 ease-in-out hover:text-black">Apply</button>
-                    <a href="/" className="hover:underline hover:text-yellow-500">Learn More</a></span>
+                    <span className = "flex"><a href="https://forms.gle/v9Szn7B9ojFX4T8a7" target="_blank" rel="noopener noreferrer"><button className="text-white border border-white rounded-md px-4 py-2 w-60 hover:shadow-lg hover:font-semibold transition-colors duration-300 ease-in-out hover:text-black">Apply</button></a>
+                    <a href="#IlluminateFellowInfoSection" className="hover:underline hover:text-yellow-500">Learn More</a></span>
                 </div>
 
             </div>
