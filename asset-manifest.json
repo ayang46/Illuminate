@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Illuminate/static/css/main.84c5f5a5.css",
-    "main.js": "/Illuminate/static/js/main.383bdc86.js",
+    "main.css": "/Illuminate/static/css/main.69c2d533.css",
+    "main.js": "/Illuminate/static/js/main.76addf20.js",
     "static/js/488.9c92ff38.chunk.js": "/Illuminate/static/js/488.9c92ff38.chunk.js",
     "static/media/ExpoPic.jpg": "/Illuminate/static/media/ExpoPic.ba91b977cb2049ee580b.jpg",
     "static/media/CohortPic.jpg": "/Illuminate/static/media/CohortPic.bfe358bb51a272daf538.jpg",
@@ -10,12 +10,12 @@
     "static/media/Illuminate24Flyer.png": "/Illuminate/static/media/Illuminate24Flyer.20bff60b269b8de9c830.png",
     "static/media/IlluminateChallengeBanner.png": "/Illuminate/static/media/IlluminateChallengeBanner.8977504021ac370328f4.png",
     "index.html": "/Illuminate/index.html",
-    "main.84c5f5a5.css.map": "/Illuminate/static/css/main.84c5f5a5.css.map",
-    "main.383bdc86.js.map": "/Illuminate/static/js/main.383bdc86.js.map",
+    "main.69c2d533.css.map": "/Illuminate/static/css/main.69c2d533.css.map",
+    "main.76addf20.js.map": "/Illuminate/static/js/main.76addf20.js.map",
     "488.9c92ff38.chunk.js.map": "/Illuminate/static/js/488.9c92ff38.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.84c5f5a5.css",
-    "static/js/main.383bdc86.js"
+    "static/css/main.69c2d533.css",
+    "static/js/main.76addf20.js"
   ]
 }
