@@ -21,7 +21,7 @@ const IlluminateFellowInfo = () => {
                                 </span>
                                 <div className="p-4">
                                     <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900">Assemble and Register your team </h3>
-                                    <p class="mb-4 text-base font-normal text-gray-600 ">Find a group of 2-4 AZ high school students to represent your community. Come up with a team name. Register your team when the link is posted. </p>
+                                    <p class="mb-4 text-base font-normal text-gray-600 ">Find a group of 2-4 AZ high school students to represent your community. Decide on a team name and register your team when the link is posted.</p>
                                     <a href={Flyer} target="_blank" rel="noopener noreferrer" download class="inline-flex items-center px-4 py-2 text-sm font-medium bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 text-gray-200 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">
                                         <FontAwesomeIcon icon={faDownload} size="1x" className="mr-3" />Download 2024 Flyer</a>
                                 </div>
@@ -41,7 +41,7 @@ const IlluminateFellowInfo = () => {
                                 </span>
                                 <div className="p-4">
                                     <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900">Meet the Cohort </h3>
-                                    <p class="mb-4 text-base font-normal text-gray-600 ">Your team will receive an email whether you have been selected to be part of the cohort. Attend webinars and meet the cohort fellows. </p>
+                                    <p class="mb-4 text-base font-normal text-gray-600 ">Your team will receive an email whether you have been selected to be part of the cohort. Meet the rest of your cohort and attend webinars! </p>
                                 </div>
                             </li>
                             <li class="mb-10 ms-6 hover:bg-gray-100 hover:rounded-lg ">
@@ -59,7 +59,7 @@ const IlluminateFellowInfo = () => {
                                 </span>
                                 <div className="p-4">
                                     <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900">Showcase </h3>
-                                    <p class="mb-4 text-base font-normal text-gray-600 ">Implement the prototype in your community and present your findings at the Luminosity Expo in March! Network with Luminosity students, staff, and partners. </p>
+                                    <p class="mb-4 text-base font-normal text-gray-600 ">Implement the prototype in your community and present your findings at the Luminosity Expo in March! Network with Luminosity students, staff, and partners from all around the world. </p>
                                 </div>
                             </li>
                             

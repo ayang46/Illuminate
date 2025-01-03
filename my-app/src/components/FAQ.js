@@ -5,7 +5,7 @@ const AccordionItem = ({ title, content, isOpen, onToggle }) => (
         <h2>
             <button
                 type="button"
-                className="flex items-center justify-between w-full py-5 font-semibold text-gray-800 border-b border-gray-400  gap-3"
+                className="flex items-center justify-between text-left w-full py-5 font-semibold text-gray-800 border-b border-gray-400  gap-3"
                 onClick={onToggle}
                 aria-expanded={isOpen}
             >
@@ -29,11 +29,11 @@ const AccordionItem = ({ title, content, isOpen, onToggle }) => (
         </h2>
         <div
             className={`overflow-hidden transition-max-height duration-700 ease-in-out ${
-                isOpen ? 'max-h-40' : 'max-h-0'
+                isOpen ? 'max-h-50' : 'max-h-0'
             }`}
         >
             <div className="p-5 border-b border-gray-400">
-                <p className="mb-2 text-orange-600">{content}</p>
+                <p className="mb-2 text-left text-orange-600">{content}</p>
             </div>
         </div>
     </div>
@@ -78,7 +78,7 @@ const FAQ = () => {
     return (
         <div className="section">
             <h1 className="text-4xl text-center font-bold">FAQs</h1>
-            <div className="text-center text-orange-400">________</div>
+            <div className="text-orange-400">________</div>
             <div id="accordion-flush">
                 {accordionData.map((item, index) => (
                     <AccordionItem
